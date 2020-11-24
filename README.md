@@ -8,7 +8,7 @@ Gossipbot é um bot escrito em python com o objetivo de automatizar o envio de m
 * Chromedriver, compatível com a versão de seu navegador;
 
 ## Getting started
-1. Faça download do [chromedriver](https://chromedriver.chromium.org/downloads) compatível com a versão mais recente de seu navegador;
+1. Faça download do [chromedriver](https://chromedriver.chromium.org/downloads) compatível com a versão mais recente de seu navegador. Feito isso, coloque o arquivo executável dentro da pasta "src";
 2. Na pasta settings/, abra o arquivo config.json;
 3. Todas as configurações estão estruturadas no formato json. Informe seu usuário, a senha e a URL direta para algum canal do discord que você tenha acesso;
 4. Na chave "pauseinterval", especifique o tempo, (em segundos), que o bot deve esperar para enviar a próxima mensagem. Esse intervalo de tempo também é randomizado, sendo ele definido entre o intervalo de tempo definido e o intervalo de tempo x2. Logo, se 300 segundos for especificado, o tempo para o envio de mensagens será randomizado entre 300 e 600 segundos;
